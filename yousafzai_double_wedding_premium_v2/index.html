@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#f7efdf"><title>The Yousafzai Wedding Celebration</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Great+Vibes&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="petals" id="petals" aria-hidden="true"></div>
+<button class="language-toggle" id="languageToggle" type="button" aria-label="Switch language">اردو</button>
+<section class="envelope-screen" id="envelopeScreen">
+  <div class="intro">
+    <p class="top-label">WITH THE BLESSINGS OF ALLAH</p>
+    <div class="envelope" id="envelope" role="button" tabindex="0" aria-label="Open wedding invitation">
+      <div class="letter">
+        <div class="mini-ornament">❦</div>
+        <p class="letter-small">THE WEDDING CELEBRATION OF</p>
+        <h2>Farhad <span>&</span> Ali</h2>
+        <p class="letter-date">4 & 5 NOVEMBER 2026</p>
+        <div class="mini-ornament">❦</div>
+      </div>
+      <div class="flap"></div><div class="front-left"></div><div class="front-right"></div><div class="front-bottom"></div>
+      <button class="seal" id="openButton" type="button">Tap<br>to Open</button>
+    </div>
+    <p class="opening-hint">A beautiful beginning awaits you</p>
+  </div>
+</section>
+
+<main id="invitation" class="hidden">
+  <section class="hero">
+    <div class="corner-ornament top-left">❧</div><div class="corner-ornament top-right">❧</div>
+    <div class="gold-emblem">۞</div>
+    <p class="arabic-line" dir="rtl">دعوتِ ولیمہ و بارات</p>
+    <p class="eyebrow">MR. & MRS. GHANI UR REHMAN</p>
+    <p class="request">RESPECTFULLY REQUEST YOUR PRESENCE & BLESSINGS AT THE WEDDING CELEBRATIONS OF THEIR BELOVED SONS</p>
+    <div class="hero-names">
+      <div><h1>Farhad Yousafzai</h1><span class="weds">weds</span><h2>Mahnoor Ali</h2></div>
+      <div class="vertical-rule"><span>❦</span></div>
+      <div><h1>Ali Khan Yousafzai</h1><span class="weds">weds</span><h2>Nabeela Khan</h2></div>
+    </div>
+    <p class="family-head">Head of the Family</p><p class="family-name">Sheikh Fazal Rehman <small>(Late)</small></p>
+    <a class="scroll-cue" href="#events">SCROLL TO EXPLORE <span>⌄</span></a>
+  </section>
+
+  <section class="intro-note section" id="events">
+    <div class="ornament-rule">❦ ───────── ♥ ───────── ❦</div>
+    <p class="script-heading">Two Sons, Two Beautiful Beginnings</p>
+    <p class="intro-copy">With gratitude to Allah and the blessings of our family, we invite you to share the joy of these special days. Your presence and prayers will make our celebrations more memorable.</p>
+  </section>
+
+  <section class="couples-section section">
+    <div class="section-kicker">THE TWO COUPLES</div>
+    <p class="script-heading">Two Hearts, One Family Celebration</p>
+    <div class="couple-cards">
+      <article class="couple-card">
+        <div class="card-flower">✿</div>
+        <p class="card-label">THE FIRST COUPLE</p>
+        <h2>Farhad Yousafzai</h2><span class="card-weds">with love</span><h3>Mahnoor Ali</h3>
+        <div class="card-divider">❦</div><p class="card-note">A new chapter begins</p>
+      </article>
+      <article class="couple-card">
+        <div class="card-flower">✿</div>
+        <p class="card-label">THE SECOND COUPLE</p>
+        <h2>Ali Khan Yousafzai</h2><span class="card-weds">with love</span><h3>Nabeela Khan</h3>
+        <div class="card-divider">❦</div><p class="card-note">A lifetime of togetherness</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="scratch-section section">
+    <p class="script-heading">A Little Surprise</p><p class="eyebrow">SCRATCH THE HEART TO REVEAL THE DATE</p>
+    <div class="scratch-heart">
+      <div class="heart-outline">
+        <svg viewBox="0 0 300 270" aria-hidden="true"><path d="M150 250 C120 220 25 155 25 85 C25 18 110 4 150 63 C190 4 275 18 275 85 C275 155 180 220 150 250Z"/></svg>
+      </div>
+      <div class="date-inside"><span>THE BARAAТ</span><strong>WEDNESDAY</strong><b>4 NOVEMBER 2026</b><span>4:00 PM</span><i>♥</i></div>
+      <canvas id="scratchCanvas" aria-label="Scratch with your finger or mouse to reveal the date"></canvas>
+    </div>
+    <p id="scratchHint" class="scratch-hint">Gently scratch the heart with your finger ✨</p>
+  </section>
+
+  <section class="event-section section">
+    <div class="section-kicker">CELEBRATION ONE</div><p class="script-heading">The Baraat</p>
+    <div class="event-card">
+      <div class="event-flourish">❦</div><p class="event-date">WEDNESDAY · 4 NOVEMBER 2026</p>
+      <h2>Farhad Yousafzai <span>&</span> Ali Khan Yousafzai</h2>
+      <div class="event-time">4:00 PM</div><div class="ornament-rule">──────── ❦ ────────</div>
+      <p class="event-label">VENUE</p><h3>Elite Wedding Hall</h3><p>Malakand Road, Shergarh</p>
+      <a class="map-button" href="https://maps.google.com/?q=Elite+Wedding+Hall+Malakand+Road+Shergarh" target="_blank" rel="noopener">Open Venue in Google Maps ↗</a>
+    </div>
+  </section>
+
+  <section class="event-section walima-section section">
+    <div class="section-kicker">CELEBRATION TWO</div><p class="script-heading">The Walima</p>
+    <div class="event-card">
+      <div class="event-flourish">❦</div><p class="event-date">THURSDAY · 5 NOVEMBER 2026</p>
+      <h2>A Day of Blessings & Togetherness</h2>
+      <div class="event-time">11:00 AM – 1:00 PM</div><div class="ornament-rule">──────── ❦ ────────</div>
+      <p class="event-label">IN SHA’ ALLAH</p><h3>Elite Wedding Hall</h3><p>Malakand Road, Shergarh</p>
+      <a class="map-button" href="https://maps.google.com/?q=Elite+Wedding+Hall+Malakand+Road+Shergarh" target="_blank" rel="noopener">Open Venue in Google Maps ↗</a>
+    </div>
+  </section>
+
+  <section class="countdown-section section">
+    <p class="script-heading">Counting Down to Celebration</p><p class="eyebrow">UNTIL THE BARAAТ</p>
+    <div class="countdown"><div><strong id="days">00</strong><span>DAYS</span></div><div><strong id="hours">00</strong><span>HOURS</span></div><div><strong id="minutes">00</strong><span>MINUTES</span></div><div><strong id="seconds">00</strong><span>SECONDS</span></div></div>
+  </section>
+
+  <section class="details-section section">
+    <p class="script-heading">With Love & Respect</p>
+    <div class="details-grid">
+      <div class="detail-box"><span class="detail-icon">✉</span><h3>RSVP</h3><p><strong>Habib Wisal</strong><br>Senior Trainer AFAQ</p><a href="tel:03454419852">0345-4419852</a><p>All family members are respectfully invited.</p></div>
+      <div class="detail-box"><span class="detail-icon">❦</span><h3>Looking Forward</h3><p>Saif Ur Rehman<br>Muhammad Rehman<br>Usman Ali<br>Alyan Khan<br>Chota Hamdan</p></div>
+      <div class="detail-box"><span class="detail-icon">☎</span><h3>Contact</h3><a href="tel:03143569669">0314-3569669</a><br><a href="tel:03454418852">0345-4418852</a></div>
+    </div>
+  </section>
+
+  <section class="closing-section">
+    <div class="closing-ornament">❦</div><p class="script-heading">Your Presence Is Our Blessing</p>
+    <p>May these days be filled with love, happiness, and prayers for the new journeys ahead.</p>
+    <p class="closing-names">Farhad & Mahnoor <span>♥</span> Ali & Nabeela</p>
+    <a class="rsvp-button" href="https://wa.me/923454419852?text=Congratulations%20on%20the%20wedding%20celebrations.%20We%20will%20be%20happy%20to%20attend." target="_blank" rel="noopener" id="whatsappButton">Send a WhatsApp Message</a>
+    <button class="share-button" id="shareButton" type="button">Share This Invitation ↗</button>
+  </section>
+  <footer>MADE BY SHAH RUKH KHAN WITH LOVE & DUAS <span>♥</span></footer>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
